@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  font-family: Poppins, sans-serif;
+
+}
+.login-background {
+  background-image: url('./../images/Picture.png');
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 40px 30px;
+  height: 80vh;
+  margin: auto;
+}
+.login-conatiner h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.login-conatiner input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #969696;
+  margin-bottom: 30px;
+}
+.login-conatiner a {
+  color: #969696;
+  font-size: 13px;
+  text-decoration: none;
+  display: block;
+  text-align: end;
+}
+.login-btn {
+  border: none;
+  background-color:rgba(88, 102, 255, 0.386);
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0 auto;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.social > div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  margin-right: 30px;
+  padding: 10px 40px 5px 40px;
+  border-radius: 5px;
+}
+.social > div:last-child {
+  margin-right: 0;
+}
+.social > div img {
+  width: 30px;
+}
